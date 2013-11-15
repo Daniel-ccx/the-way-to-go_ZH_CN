@@ -1,17 +1,18 @@
-package trans
-<<<<<<< HEAD
+// init
+package main
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 var Pi float64
 
 func init() {
-	Pi = 4 * math.Atan(1) // init() function computes Pi
+	Pi = 4 * math.Atan(1)
 }
-=======
-import "math"
-var Pi float64
-func init() {
-	Pi = 4 * math.Atan(1) // init() function computes Pi
+
+func main() {
+
+	fmt.Println(Pi)
 }
->>>>>>> 0364d180eb1d1b8067d1248ace49ca46c816e541
